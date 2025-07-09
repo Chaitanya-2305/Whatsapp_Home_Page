@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+body{
+    background-color: rgb(255, 248, 238);
+}
+.container{
+    padding: 30px;
+}
+.whatsapp-logo {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: #25D366;
+}
+.whatsapp-logo i {
+    font-size: 32px;
+    margin-right: 10px;
+}
+.download{
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    padding-right: 20px;
+    margin-top: -45px;
+}
+.download button{
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(91, 200, 91);
+    border: 1px solid black;
+    font-size: 15px;
+    transition: background 1s ease-in-out;
+}
+.download button:hover{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transform: 5s;
+    /* animation: bgColorChange 0.8s ease-in-out forwards; */
+}
+.download i{
+    font-size: 12px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    padding-top: -50px;
+    margin-left: 150px;
+    width: 900px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 40px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.login h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+    color: rgb(34, 34, 34);
+    font-weight: normal;
+}
+.country{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.country h2{
+    color: rgb(56, 56, 56);
+    font-weight: 10px;
+}
+.dropdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid #515151;
+    margin-left: 287px;
+    border-radius: 30px;
+    padding: 8px 12px;
+    width: 330px;
+    margin-top: 30px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropdown img {
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.dropdown span {
+    flex-grow: 1;
+}
+
+.arrow {
+    font-size: 18px;
+    padding-left: 150px;
+}
+.ph{
+    display: flex;
+    align-items: center;
+    border: 1px solid #515151;
+    margin-left: 288px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 8px 12px;
+    width: 330px;
+    margin-top: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.ph span{
+    flex-grow: 3;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin-left: 410px;
+    margin-top: 40px;
+}
+.btn button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(20, 121, 102);
+    border-radius: 30px;
+    font-weight: bolder;
+}
+a{
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+}
+a:hover{
+    color: #25D366;
+}
+.line{
+    margin-left: 370px;
+    width: 180px;
+    height: 3px;
+    background-color: #25D366;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #474747;
+}
